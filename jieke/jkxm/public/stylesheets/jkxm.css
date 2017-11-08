@@ -1,0 +1,303 @@
+
+ul,li,dl,dd,dt,p,ol,h1,h2,h3,h4,h5{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    border: 0px;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearFix:after {
+    clear:both;
+    display:block;
+    content:'';
+}
+a,input,button{ outline:none; }
+/*轮播*/
+
+.main{
+    width: 100%;
+    height: 662px;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    padding: 0 40px;
+    height: 73px;
+    background: rgba(0,0,0,.5);
+}
+.logo{
+    width: 200px;
+    height: 73px;
+    float: left;
+}
+.logo img{
+    width: 99px;
+    height: 50px;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    float: left;
+}
+.nav a:hover{
+    color: rgb(255, 81, 0);
+}
+.nav a{
+    line-height: 73px;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 600;
+}
+.lunbo{
+    width: 100%;
+    height: 662px;
+    position: relative;
+}
+.carousel-inner{
+    height: 662px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+.carousel-caption{
+    position: absolute;
+    top: 260px;
+    left: 50%;
+}
+.carousel-caption h1{
+    font-size: 65px;
+    line-height: 87px;
+}
+.carousel-caption h6{
+    font-size: 15px;
+}
+.lb{
+    width: 100%;
+    height: 660px;
+
+}
+.can{
+    width: 100%;
+    height: 662px;
+    /*justify-content: center; !*子元素水平居中*!*/
+    /*display: -webkit-flex;*/
+    background: #f1f1f1;
+    overflow: hidden;
+}
+.cpjs{
+    width: 910px;
+    height: 160px;
+    margin: 0 auto;
+
+}
+.cpjs h1{
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+.cpjs .xian{
+    width:200px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.cpjs .lf{
+    border: 1px solid #ddd;
+    padding: 0px;
+    width: 64px;
+    height: 1px;
+    float: right;
+    margin: 2px 2px 10px 0px;
+    top: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.cpjs .rg{
+    border: 1px solid #ddd;
+    padding: 0px;
+    width: 64px;
+    height: 1px;
+    float: right;
+    margin: 2px 2px 10px 0px;
+    top: 5px;
+    float: right;
+
+}
+.cpjs p{
+    text-align: center;
+    line-height: 10px;
+
+}
+.cpimg{
+    width: 910px;
+    height: 368px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.cpjs .sq{
+    color: rgb(255, 81, 0);
+    font-size: 20px;
+
+}
+.cpimg img{
+    width: 100%;
+}
+.template{
+    width: 100%;
+    height: 662px;
+    overflow: auto;
+    padding-top: 116px;
+}
+.template .cpjs{
+    height: 140px;
+}
+.template .cpjs h1{
+    padding-bottom: 20px;
+    margin: 0;
+}
+.template .cpjs .xian {
+    margin-bottom: 30px;
+}
+.template .cpjs .xian .sq{
+    font-size: 20px;
+    color: rgb(255, 81, 0);
+}
+    /*背景固定*/
+.we{
+    width: 100%;
+    height: 729px;
+    background-image: url(../images/bggd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0%;
+}
+.us{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+}
+.cpjs p{
+    color: rgb(102, 102, 102);;
+}
+.us .cpjs h1{
+    color: #fff;
+    margin-top: 38%;
+}
+.us .cpjs .xian{
+    margin-bottom: 50px;
+}
+.us .cpjs p{
+    color: #fff;
+}
+.us .cpjs h5{
+    color: rgb(255, 81, 0);
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.group{
+    width: 100%;
+    height: 762px;
+    padding: 40px 0;
+    background: mediumaquamarine;
+}
+
+.group .xian{
+    margin-bottom: 30px;
+}
+
+.engineer{
+    width: 1285px;
+    height: 485px;
+    margin: 0 auto;
+}
+.engineer div{
+    float: left;
+    width: 295px;
+    height: 405px;
+    margin: 0 5px;
+
+}
+.engineer .btn1{
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+.engineer .btn2{
+    float: right;
+    width: 32px;
+    height: 32px;
+}
+.engineer div img{
+    width: 285px;
+    height: 258px;
+}
+.market{
+    width: 100%;
+    height: 714px;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0%;
+    overflow: hidden;
+}
+.market .cpjs h1{
+    color: #fff;
+    padding-top: 50px;
+}
+.market .cpjs .xian{
+    width: 300px;
+    margin-bottom: 30px;
+ }
+.market .cpjs .lf{
+    width: 120px;
+}
+.market .cpjs .rg{
+    width: 120px;
+}
+.market .cpjs p{
+    color: #fff;
+    font-weight: 600;
+}
+.marketbg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+}
+.client{
+    
+}
+.client div{
+    background: mediumturquoise;
+}
+
+
